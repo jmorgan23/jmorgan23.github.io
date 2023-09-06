@@ -5,13 +5,57 @@
     <meta name="viewport" content="width=>, initial-scale=1.0">
     <title>Jasmine's Webpage</title>
 </head>
-<body>
-    <style> h2 {text-align:center;}</style>
+<body data-offset="50" data-spy="scroll" data-target=".navbar" id="portPage">
+    <nav class="navbar navbar-fixed-top">
+        ::before
+        <div class="container-fluid"> == $0
+            ::before
+            <div class="navbar-header"> == $0
+                ::before
+                <button class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse" type="button"> == $0
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#portpage">Jasmine Morgan</a>
+                ::after
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar"> == $0
+                ::before
+                <ul class="nav navbar-nav navbar-right">
+                    ::before
+                    <li>
+                        <a href="#portPage">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about">About</a>
+                    </li>
+                    <li>
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#languages">Languages</a>
+                    </li>
+                    <li> == $0
+                        <a href="#contact">Contact</a>
+                    </li>
+                    ::after
+                </ul>
+                ::after
+            </div>
+            ::after
+        </div>
+        ::after
+    </nav>
+
     <div class="jumbotron container-fluid" id="home"> == $0
         ::before
-        <div class="img-responsive imgworld" src="sunset.jpeg" style=""top: 0px; opacity: 1.1;">
+        <img class="img-responsive imgworld" src="sunset.jpeg" style=""top: 0px; opacity: 1.1;">
         ::after
     </div>
     <h2 style="color: white; opacity: 1.1;" class="jumbotext">Jasmine's Webpage</h2><hr>
+
+
 </body>
 </html>
